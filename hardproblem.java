@@ -5,8 +5,8 @@ record Student(int studentID, String name, String department, double marks) {}
 
 class StudentController {
     private static final String URL = "jdbc:mysql://localhost:3306/your_database";
-    private static final String USER = "your_username";
-    private static final String PASSWORD = "your_password";
+    private static final String USER = "root";
+    private static final String PASSWORD = "tusar@04";
 
     private static Connection connect() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
