@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class ProductCRUD {
     private static final String URL = "jdbc:mysql://localhost:3306/your_database";
-    private static final String USER = "your_username";
-    private static final String PASSWORD = "your_password";
+    private static final String USER = "root";
+    private static final String PASSWORD = "tusar@04";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
